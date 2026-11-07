@@ -1,0 +1,261 @@
+{
+  "methodology": {
+    "technique": "Model-Agnostic Permutation Feature Importance",
+    "evaluation_cohort": "Hold-out test set only (N = 139: 91 benign, 48 malignant)",
+    "repeats_per_feature": 50,
+    "model": "Artificial Neural Network (MLPClassifier, 8 hidden neurons)",
+    "null_hypothesis": "If feature j carries no unique predictive value, permuting its column does not degrade model performance.",
+    "collinearity_warning": "Correlated feature pairs (e.g., Cell Size and Cell Shape) can share mutual information, diluting individual marginal importance drops."
+  },
+  "metrics": {
+    "f1": [
+      {
+        "feature": "Clump_Thickness",
+        "feature_name": "Clump Thickness",
+        "mean_drop": 0.0416,
+        "std_drop": 0.0127,
+        "std_error": 0.0018,
+        "ci_lower": 0.0381,
+        "ci_upper": 0.0451
+      },
+      {
+        "feature": "Uniformity_of_Cell_Shape",
+        "feature_name": "Uniformity of Cell Shape",
+        "mean_drop": 0.0226,
+        "std_drop": 0.0121,
+        "std_error": 0.0017,
+        "ci_lower": 0.0192,
+        "ci_upper": 0.0259
+      },
+      {
+        "feature": "Bare_Nuclei",
+        "feature_name": "Bare Nuclei",
+        "mean_drop": 0.0197,
+        "std_drop": 0.0139,
+        "std_error": 0.002,
+        "ci_lower": 0.0159,
+        "ci_upper": 0.0236
+      },
+      {
+        "feature": "Marginal_Adhesion",
+        "feature_name": "Marginal Adhesion",
+        "mean_drop": 0.0083,
+        "std_drop": 0.0074,
+        "std_error": 0.001,
+        "ci_lower": 0.0062,
+        "ci_upper": 0.0103
+      },
+      {
+        "feature": "Single_Epithelial_Cell_Size",
+        "feature_name": "Single Epithelial Cell Size",
+        "mean_drop": 0.0082,
+        "std_drop": 0.0093,
+        "std_error": 0.0013,
+        "ci_lower": 0.0057,
+        "ci_upper": 0.0108
+      },
+      {
+        "feature": "Uniformity_of_Cell_Size",
+        "feature_name": "Uniformity of Cell Size",
+        "mean_drop": 0.0057,
+        "std_drop": 0.0055,
+        "std_error": 0.0008,
+        "ci_lower": 0.0042,
+        "ci_upper": 0.0072
+      },
+      {
+        "feature": "Bland_Chromatin",
+        "feature_name": "Bland Chromatin",
+        "mean_drop": 0.0035,
+        "std_drop": 0.0051,
+        "std_error": 0.0007,
+        "ci_lower": 0.0021,
+        "ci_upper": 0.0049
+      },
+      {
+        "feature": "Mitoses",
+        "feature_name": "Mitoses",
+        "mean_drop": -0.0005,
+        "std_drop": 0.0041,
+        "std_error": 0.0006,
+        "ci_lower": -0.0016,
+        "ci_upper": 0.0007
+      },
+      {
+        "feature": "Normal_Nucleoli",
+        "feature_name": "Normal Nucleoli",
+        "mean_drop": -0.0015,
+        "std_drop": 0.0113,
+        "std_error": 0.0016,
+        "ci_lower": -0.0047,
+        "ci_upper": 0.0016
+      }
+    ],
+    "recall": [
+      {
+        "feature": "Clump_Thickness",
+        "feature_name": "Clump Thickness",
+        "mean_drop": 0.0608,
+        "std_drop": 0.0203,
+        "std_error": 0.0029,
+        "ci_lower": 0.0552,
+        "ci_upper": 0.0665
+      },
+      {
+        "feature": "Uniformity_of_Cell_Shape",
+        "feature_name": "Uniformity of Cell Shape",
+        "mean_drop": 0.0442,
+        "std_drop": 0.0175,
+        "std_error": 0.0025,
+        "ci_lower": 0.0393,
+        "ci_upper": 0.049
+      },
+      {
+        "feature": "Single_Epithelial_Cell_Size",
+        "feature_name": "Single Epithelial Cell Size",
+        "mean_drop": 0.0296,
+        "std_drop": 0.0145,
+        "std_error": 0.002,
+        "ci_lower": 0.0256,
+        "ci_upper": 0.0336
+      },
+      {
+        "feature": "Bare_Nuclei",
+        "feature_name": "Bare Nuclei",
+        "mean_drop": 0.0196,
+        "std_drop": 0.0164,
+        "std_error": 0.0023,
+        "ci_lower": 0.015,
+        "ci_upper": 0.0241
+      },
+      {
+        "feature": "Uniformity_of_Cell_Size",
+        "feature_name": "Uniformity of Cell Size",
+        "mean_drop": 0.0108,
+        "std_drop": 0.0104,
+        "std_error": 0.0015,
+        "ci_lower": 0.0079,
+        "ci_upper": 0.0137
+      },
+      {
+        "feature": "Marginal_Adhesion",
+        "feature_name": "Marginal Adhesion",
+        "mean_drop": 0.0104,
+        "std_drop": 0.012,
+        "std_error": 0.0017,
+        "ci_lower": 0.0071,
+        "ci_upper": 0.0137
+      },
+      {
+        "feature": "Bland_Chromatin",
+        "feature_name": "Bland Chromatin",
+        "mean_drop": 0.0067,
+        "std_drop": 0.0097,
+        "std_error": 0.0014,
+        "ci_lower": 0.004,
+        "ci_upper": 0.0094
+      },
+      {
+        "feature": "Mitoses",
+        "feature_name": "Mitoses",
+        "mean_drop": -0.0021,
+        "std_drop": 0.0062,
+        "std_error": 0.0009,
+        "ci_lower": -0.0038,
+        "ci_upper": -0.0004
+      },
+      {
+        "feature": "Normal_Nucleoli",
+        "feature_name": "Normal Nucleoli",
+        "mean_drop": -0.0062,
+        "std_drop": 0.0112,
+        "std_error": 0.0016,
+        "ci_lower": -0.0094,
+        "ci_upper": -0.0031
+      }
+    ],
+    "roc_auc": [
+      {
+        "feature": "Clump_Thickness",
+        "feature_name": "Clump Thickness",
+        "mean_drop": 0.0134,
+        "std_drop": 0.0049,
+        "std_error": 0.0007,
+        "ci_lower": 0.0121,
+        "ci_upper": 0.0148
+      },
+      {
+        "feature": "Bare_Nuclei",
+        "feature_name": "Bare Nuclei",
+        "mean_drop": 0.008,
+        "std_drop": 0.0046,
+        "std_error": 0.0007,
+        "ci_lower": 0.0067,
+        "ci_upper": 0.0092
+      },
+      {
+        "feature": "Marginal_Adhesion",
+        "feature_name": "Marginal Adhesion",
+        "mean_drop": 0.0054,
+        "std_drop": 0.0023,
+        "std_error": 0.0003,
+        "ci_lower": 0.0048,
+        "ci_upper": 0.006
+      },
+      {
+        "feature": "Normal_Nucleoli",
+        "feature_name": "Normal Nucleoli",
+        "mean_drop": 0.0047,
+        "std_drop": 0.0024,
+        "std_error": 0.0003,
+        "ci_lower": 0.0041,
+        "ci_upper": 0.0054
+      },
+      {
+        "feature": "Uniformity_of_Cell_Shape",
+        "feature_name": "Uniformity of Cell Shape",
+        "mean_drop": 0.0029,
+        "std_drop": 0.0018,
+        "std_error": 0.0003,
+        "ci_lower": 0.0024,
+        "ci_upper": 0.0034
+      },
+      {
+        "feature": "Bland_Chromatin",
+        "feature_name": "Bland Chromatin",
+        "mean_drop": 0.0025,
+        "std_drop": 0.0015,
+        "std_error": 0.0002,
+        "ci_lower": 0.002,
+        "ci_upper": 0.0029
+      },
+      {
+        "feature": "Uniformity_of_Cell_Size",
+        "feature_name": "Uniformity of Cell Size",
+        "mean_drop": 0.0021,
+        "std_drop": 0.0014,
+        "std_error": 0.0002,
+        "ci_lower": 0.0017,
+        "ci_upper": 0.0025
+      },
+      {
+        "feature": "Mitoses",
+        "feature_name": "Mitoses",
+        "mean_drop": 0.0016,
+        "std_drop": 0.001,
+        "std_error": 0.0001,
+        "ci_lower": 0.0013,
+        "ci_upper": 0.0018
+      },
+      {
+        "feature": "Single_Epithelial_Cell_Size",
+        "feature_name": "Single Epithelial Cell Size",
+        "mean_drop": 0.001,
+        "std_drop": 0.0013,
+        "std_error": 0.0002,
+        "ci_lower": 0.0006,
+        "ci_upper": 0.0013
+      }
+    ]
+  }
+}

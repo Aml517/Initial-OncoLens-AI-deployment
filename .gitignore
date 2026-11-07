@@ -1,0 +1,16 @@
+@"
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+"@ | Set-Content .gitignore

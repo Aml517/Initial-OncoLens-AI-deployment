@@ -1,0 +1,2075 @@
+{
+  "total_instances": 699,
+  "deduplicated_instances": 691,
+  "class_distribution": {
+    "Benign": 453,
+    "Malignant": 238
+  },
+  "missing_values": {
+    "counts": {
+      "Sample_code_number": 0,
+      "Clump_Thickness": 0,
+      "Uniformity_of_Cell_Size": 0,
+      "Uniformity_of_Cell_Shape": 0,
+      "Marginal_Adhesion": 0,
+      "Single_Epithelial_Cell_Size": 0,
+      "Bare_Nuclei": 16,
+      "Bland_Chromatin": 0,
+      "Normal_Nucleoli": 0,
+      "Mitoses": 0,
+      "Class": 0
+    },
+    "percentages": {
+      "Sample_code_number": 0.0,
+      "Clump_Thickness": 0.0,
+      "Uniformity_of_Cell_Size": 0.0,
+      "Uniformity_of_Cell_Shape": 0.0,
+      "Marginal_Adhesion": 0.0,
+      "Single_Epithelial_Cell_Size": 0.0,
+      "Bare_Nuclei": 2.29,
+      "Bland_Chromatin": 0.0,
+      "Normal_Nucleoli": 0.0,
+      "Mitoses": 0.0,
+      "Class": 0.0
+    }
+  },
+  "descriptive_stats": {
+    "Clump_Thickness": {
+      "count": 699.0,
+      "mean": 4.42,
+      "std": 2.82,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 4.0,
+      "75%": 6.0,
+      "max": 10.0
+    },
+    "Uniformity_of_Cell_Size": {
+      "count": 699.0,
+      "mean": 3.13,
+      "std": 3.05,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 5.0,
+      "max": 10.0
+    },
+    "Uniformity_of_Cell_Shape": {
+      "count": 699.0,
+      "mean": 3.21,
+      "std": 2.97,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 5.0,
+      "max": 10.0
+    },
+    "Marginal_Adhesion": {
+      "count": 699.0,
+      "mean": 2.81,
+      "std": 2.86,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 4.0,
+      "max": 10.0
+    },
+    "Single_Epithelial_Cell_Size": {
+      "count": 699.0,
+      "mean": 3.22,
+      "std": 2.21,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 10.0
+    },
+    "Bare_Nuclei": {
+      "count": 683.0,
+      "mean": 3.54,
+      "std": 3.64,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 6.0,
+      "max": 10.0
+    },
+    "Bland_Chromatin": {
+      "count": 699.0,
+      "mean": 3.44,
+      "std": 2.44,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 5.0,
+      "max": 10.0
+    },
+    "Normal_Nucleoli": {
+      "count": 699.0,
+      "mean": 2.87,
+      "std": 3.05,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 4.0,
+      "max": 10.0
+    },
+    "Mitoses": {
+      "count": 699.0,
+      "mean": 1.59,
+      "std": 1.72,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 10.0
+    }
+  },
+  "histogram_data": {
+    "Clump_Thickness": [
+      {
+        "bin": 1,
+        "count": 145
+      },
+      {
+        "bin": 2,
+        "count": 50
+      },
+      {
+        "bin": 3,
+        "count": 108
+      },
+      {
+        "bin": 4,
+        "count": 80
+      },
+      {
+        "bin": 5,
+        "count": 130
+      },
+      {
+        "bin": 6,
+        "count": 34
+      },
+      {
+        "bin": 7,
+        "count": 23
+      },
+      {
+        "bin": 8,
+        "count": 46
+      },
+      {
+        "bin": 9,
+        "count": 14
+      },
+      {
+        "bin": 10,
+        "count": 69
+      }
+    ],
+    "Uniformity_of_Cell_Size": [
+      {
+        "bin": 1,
+        "count": 384
+      },
+      {
+        "bin": 2,
+        "count": 45
+      },
+      {
+        "bin": 3,
+        "count": 52
+      },
+      {
+        "bin": 4,
+        "count": 40
+      },
+      {
+        "bin": 5,
+        "count": 30
+      },
+      {
+        "bin": 6,
+        "count": 27
+      },
+      {
+        "bin": 7,
+        "count": 19
+      },
+      {
+        "bin": 8,
+        "count": 29
+      },
+      {
+        "bin": 9,
+        "count": 6
+      },
+      {
+        "bin": 10,
+        "count": 67
+      }
+    ],
+    "Uniformity_of_Cell_Shape": [
+      {
+        "bin": 1,
+        "count": 353
+      },
+      {
+        "bin": 2,
+        "count": 59
+      },
+      {
+        "bin": 3,
+        "count": 56
+      },
+      {
+        "bin": 4,
+        "count": 44
+      },
+      {
+        "bin": 5,
+        "count": 34
+      },
+      {
+        "bin": 6,
+        "count": 30
+      },
+      {
+        "bin": 7,
+        "count": 30
+      },
+      {
+        "bin": 8,
+        "count": 28
+      },
+      {
+        "bin": 9,
+        "count": 7
+      },
+      {
+        "bin": 10,
+        "count": 58
+      }
+    ],
+    "Marginal_Adhesion": [
+      {
+        "bin": 1,
+        "count": 407
+      },
+      {
+        "bin": 2,
+        "count": 58
+      },
+      {
+        "bin": 3,
+        "count": 58
+      },
+      {
+        "bin": 4,
+        "count": 33
+      },
+      {
+        "bin": 5,
+        "count": 23
+      },
+      {
+        "bin": 6,
+        "count": 22
+      },
+      {
+        "bin": 7,
+        "count": 13
+      },
+      {
+        "bin": 8,
+        "count": 25
+      },
+      {
+        "bin": 9,
+        "count": 5
+      },
+      {
+        "bin": 10,
+        "count": 55
+      }
+    ],
+    "Single_Epithelial_Cell_Size": [
+      {
+        "bin": 1,
+        "count": 47
+      },
+      {
+        "bin": 2,
+        "count": 386
+      },
+      {
+        "bin": 3,
+        "count": 72
+      },
+      {
+        "bin": 4,
+        "count": 48
+      },
+      {
+        "bin": 5,
+        "count": 39
+      },
+      {
+        "bin": 6,
+        "count": 41
+      },
+      {
+        "bin": 7,
+        "count": 12
+      },
+      {
+        "bin": 8,
+        "count": 21
+      },
+      {
+        "bin": 9,
+        "count": 2
+      },
+      {
+        "bin": 10,
+        "count": 31
+      }
+    ],
+    "Bare_Nuclei": [
+      {
+        "bin": 1,
+        "count": 402
+      },
+      {
+        "bin": 2,
+        "count": 30
+      },
+      {
+        "bin": 3,
+        "count": 28
+      },
+      {
+        "bin": 4,
+        "count": 19
+      },
+      {
+        "bin": 5,
+        "count": 30
+      },
+      {
+        "bin": 6,
+        "count": 4
+      },
+      {
+        "bin": 7,
+        "count": 8
+      },
+      {
+        "bin": 8,
+        "count": 21
+      },
+      {
+        "bin": 9,
+        "count": 9
+      },
+      {
+        "bin": 10,
+        "count": 132
+      }
+    ],
+    "Bland_Chromatin": [
+      {
+        "bin": 1,
+        "count": 152
+      },
+      {
+        "bin": 2,
+        "count": 166
+      },
+      {
+        "bin": 3,
+        "count": 165
+      },
+      {
+        "bin": 4,
+        "count": 40
+      },
+      {
+        "bin": 5,
+        "count": 34
+      },
+      {
+        "bin": 6,
+        "count": 10
+      },
+      {
+        "bin": 7,
+        "count": 73
+      },
+      {
+        "bin": 8,
+        "count": 28
+      },
+      {
+        "bin": 9,
+        "count": 11
+      },
+      {
+        "bin": 10,
+        "count": 20
+      }
+    ],
+    "Normal_Nucleoli": [
+      {
+        "bin": 1,
+        "count": 443
+      },
+      {
+        "bin": 2,
+        "count": 36
+      },
+      {
+        "bin": 3,
+        "count": 44
+      },
+      {
+        "bin": 4,
+        "count": 18
+      },
+      {
+        "bin": 5,
+        "count": 19
+      },
+      {
+        "bin": 6,
+        "count": 22
+      },
+      {
+        "bin": 7,
+        "count": 16
+      },
+      {
+        "bin": 8,
+        "count": 24
+      },
+      {
+        "bin": 9,
+        "count": 16
+      },
+      {
+        "bin": 10,
+        "count": 61
+      }
+    ],
+    "Mitoses": [
+      {
+        "bin": 1,
+        "count": 579
+      },
+      {
+        "bin": 2,
+        "count": 35
+      },
+      {
+        "bin": 3,
+        "count": 33
+      },
+      {
+        "bin": 4,
+        "count": 12
+      },
+      {
+        "bin": 5,
+        "count": 6
+      },
+      {
+        "bin": 6,
+        "count": 3
+      },
+      {
+        "bin": 7,
+        "count": 9
+      },
+      {
+        "bin": 8,
+        "count": 8
+      },
+      {
+        "bin": 9,
+        "count": 0
+      },
+      {
+        "bin": 10,
+        "count": 14
+      }
+    ]
+  },
+  "boxplot_data": {
+    "Clump_Thickness": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 3.0,
+        "q3": 4.0,
+        "max": 8.0,
+        "mean": 2.96
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 8.0,
+        "q3": 10.0,
+        "max": 10.0,
+        "mean": 7.21
+      }
+    },
+    "Uniformity_of_Cell_Size": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.33
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 4.0,
+        "median": 6.0,
+        "q3": 10.0,
+        "max": 10.0,
+        "mean": 6.56
+      }
+    },
+    "Uniformity_of_Cell_Shape": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.45
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 4.0,
+        "median": 6.0,
+        "q3": 9.0,
+        "max": 10.0,
+        "mean": 6.54
+      }
+    },
+    "Marginal_Adhesion": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.37
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 3.0,
+        "median": 5.0,
+        "q3": 8.0,
+        "max": 10.0,
+        "mean": 5.6
+      }
+    },
+    "Single_Epithelial_Cell_Size": {
+      "Benign": {
+        "min": 2.0,
+        "q1": 2.0,
+        "median": 2.0,
+        "q3": 2.0,
+        "max": 2.0,
+        "mean": 2.13
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 3.0,
+        "median": 5.0,
+        "q3": 6.0,
+        "max": 10.0,
+        "mean": 5.28
+      }
+    },
+    "Bare_Nuclei": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.35
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 10.0,
+        "q3": 10.0,
+        "max": 10.0,
+        "mean": 7.61
+      }
+    },
+    "Bland_Chromatin": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 2.0,
+        "q3": 3.0,
+        "max": 6.0,
+        "mean": 2.1
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 4.0,
+        "median": 7.0,
+        "q3": 7.0,
+        "max": 10.0,
+        "mean": 5.98
+      }
+    },
+    "Normal_Nucleoli": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.29
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 3.0,
+        "median": 6.0,
+        "q3": 10.0,
+        "max": 10.0,
+        "mean": 5.91
+      }
+    },
+    "Mitoses": {
+      "Benign": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0,
+        "mean": 1.06
+      },
+      "Malignant": {
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 3.0,
+        "max": 6.0,
+        "mean": 2.6
+      }
+    }
+  },
+  "correlation_matrix": {
+    "Clump_Thickness": {
+      "Clump_Thickness": 1.0,
+      "Uniformity_of_Cell_Size": 0.645,
+      "Uniformity_of_Cell_Shape": 0.655,
+      "Marginal_Adhesion": 0.486,
+      "Single_Epithelial_Cell_Size": 0.522,
+      "Bare_Nuclei": 0.593,
+      "Bland_Chromatin": 0.558,
+      "Normal_Nucleoli": 0.536,
+      "Mitoses": 0.35
+    },
+    "Uniformity_of_Cell_Size": {
+      "Clump_Thickness": 0.645,
+      "Uniformity_of_Cell_Size": 1.0,
+      "Uniformity_of_Cell_Shape": 0.907,
+      "Marginal_Adhesion": 0.706,
+      "Single_Epithelial_Cell_Size": 0.752,
+      "Bare_Nuclei": 0.692,
+      "Bland_Chromatin": 0.756,
+      "Normal_Nucleoli": 0.723,
+      "Mitoses": 0.459
+    },
+    "Uniformity_of_Cell_Shape": {
+      "Clump_Thickness": 0.655,
+      "Uniformity_of_Cell_Size": 0.907,
+      "Uniformity_of_Cell_Shape": 1.0,
+      "Marginal_Adhesion": 0.683,
+      "Single_Epithelial_Cell_Size": 0.72,
+      "Bare_Nuclei": 0.714,
+      "Bland_Chromatin": 0.736,
+      "Normal_Nucleoli": 0.719,
+      "Mitoses": 0.439
+    },
+    "Marginal_Adhesion": {
+      "Clump_Thickness": 0.486,
+      "Uniformity_of_Cell_Size": 0.706,
+      "Uniformity_of_Cell_Shape": 0.683,
+      "Marginal_Adhesion": 1.0,
+      "Single_Epithelial_Cell_Size": 0.6,
+      "Bare_Nuclei": 0.671,
+      "Bland_Chromatin": 0.667,
+      "Normal_Nucleoli": 0.603,
+      "Mitoses": 0.418
+    },
+    "Single_Epithelial_Cell_Size": {
+      "Clump_Thickness": 0.522,
+      "Uniformity_of_Cell_Size": 0.752,
+      "Uniformity_of_Cell_Shape": 0.72,
+      "Marginal_Adhesion": 0.6,
+      "Single_Epithelial_Cell_Size": 1.0,
+      "Bare_Nuclei": 0.586,
+      "Bland_Chromatin": 0.616,
+      "Normal_Nucleoli": 0.629,
+      "Mitoses": 0.479
+    },
+    "Bare_Nuclei": {
+      "Clump_Thickness": 0.593,
+      "Uniformity_of_Cell_Size": 0.692,
+      "Uniformity_of_Cell_Shape": 0.714,
+      "Marginal_Adhesion": 0.671,
+      "Single_Epithelial_Cell_Size": 0.586,
+      "Bare_Nuclei": 1.0,
+      "Bland_Chromatin": 0.681,
+      "Normal_Nucleoli": 0.584,
+      "Mitoses": 0.339
+    },
+    "Bland_Chromatin": {
+      "Clump_Thickness": 0.558,
+      "Uniformity_of_Cell_Size": 0.756,
+      "Uniformity_of_Cell_Shape": 0.736,
+      "Marginal_Adhesion": 0.667,
+      "Single_Epithelial_Cell_Size": 0.616,
+      "Bare_Nuclei": 0.681,
+      "Bland_Chromatin": 1.0,
+      "Normal_Nucleoli": 0.666,
+      "Mitoses": 0.344
+    },
+    "Normal_Nucleoli": {
+      "Clump_Thickness": 0.536,
+      "Uniformity_of_Cell_Size": 0.723,
+      "Uniformity_of_Cell_Shape": 0.719,
+      "Marginal_Adhesion": 0.603,
+      "Single_Epithelial_Cell_Size": 0.629,
+      "Bare_Nuclei": 0.584,
+      "Bland_Chromatin": 0.666,
+      "Normal_Nucleoli": 1.0,
+      "Mitoses": 0.428
+    },
+    "Mitoses": {
+      "Clump_Thickness": 0.35,
+      "Uniformity_of_Cell_Size": 0.459,
+      "Uniformity_of_Cell_Shape": 0.439,
+      "Marginal_Adhesion": 0.418,
+      "Single_Epithelial_Cell_Size": 0.479,
+      "Bare_Nuclei": 0.339,
+      "Bland_Chromatin": 0.344,
+      "Normal_Nucleoli": 0.428,
+      "Mitoses": 1.0
+    }
+  },
+  "sample_records": [
+    {
+      "id": 1000025,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1002945,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 5,
+      "single_epithelial_cell_size": 7,
+      "bare_nuclei": 10,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 2,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1015425,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 2,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1016277,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 8,
+      "uniformity_cell_shape": 8,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 4,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 7,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1017023,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1017122,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 8,
+      "single_epithelial_cell_size": 7,
+      "bare_nuclei": 10,
+      "bland_chromatin": 9,
+      "normal_nucleoli": 7,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1018099,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 10,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1018561,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1033078,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 1,
+      "normal_nucleoli": 1,
+      "mitoses": 5,
+      "class": "Benign"
+    },
+    {
+      "id": 1033078,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1035283,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 1,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1036172,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1041801,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 3,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 4,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1043999,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 3,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1044572,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 7,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 10,
+      "single_epithelial_cell_size": 7,
+      "bare_nuclei": 9,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 5,
+      "mitoses": 4,
+      "class": "Malignant"
+    },
+    {
+      "id": 1047630,
+      "clump_thickness": 7,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 1,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 3,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1048672,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1049815,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1050670,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 7,
+      "uniformity_cell_shape": 7,
+      "marginal_adhesion": 6,
+      "single_epithelial_cell_size": 4,
+      "bare_nuclei": 10,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 1,
+      "mitoses": 2,
+      "class": "Malignant"
+    },
+    {
+      "id": 1050718,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1054590,
+      "clump_thickness": 7,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 10,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 10,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 4,
+      "mitoses": 4,
+      "class": "Malignant"
+    },
+    {
+      "id": 1054593,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 7,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 10,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1056784,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1057013,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": null,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 3,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1059552,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1065726,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 7,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 6,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1066373,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 1,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1066979,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1067444,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1070935,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 1,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1070935,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 1,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1071760,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1072179,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 7,
+      "uniformity_cell_shape": 7,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 5,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 4,
+      "mitoses": 3,
+      "class": "Malignant"
+    },
+    {
+      "id": 1074610,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1075123,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1079304,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1080185,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 8,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 1,
+      "bland_chromatin": 8,
+      "normal_nucleoli": 9,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1081791,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 1,
+      "bare_nuclei": 1,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1084584,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 9,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 10,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 6,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1091262,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 7,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 5,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1096800,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 9,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": null,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 8,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1099510,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 3,
+      "bland_chromatin": 6,
+      "normal_nucleoli": 5,
+      "mitoses": 2,
+      "class": "Malignant"
+    },
+    {
+      "id": 1100524,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 10,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 3,
+      "mitoses": 3,
+      "class": "Malignant"
+    },
+    {
+      "id": 1102573,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 6,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1103608,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 1,
+      "bland_chromatin": 8,
+      "normal_nucleoli": 10,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1103722,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 2,
+      "class": "Benign"
+    },
+    {
+      "id": 1105257,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 7,
+      "uniformity_cell_shape": 7,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 4,
+      "bare_nuclei": 9,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 8,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1105524,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1106095,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1106829,
+      "clump_thickness": 7,
+      "uniformity_cell_size": 8,
+      "uniformity_cell_shape": 7,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 4,
+      "bare_nuclei": 8,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 8,
+      "mitoses": 2,
+      "class": "Malignant"
+    },
+    {
+      "id": 1108370,
+      "clump_thickness": 9,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 8,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 3,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 5,
+      "class": "Malignant"
+    },
+    {
+      "id": 1108449,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 4,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 4,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1110102,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 5,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 10,
+      "mitoses": 2,
+      "class": "Malignant"
+    },
+    {
+      "id": 1110503,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 8,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 8,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 3,
+      "mitoses": 7,
+      "class": "Malignant"
+    },
+    {
+      "id": 1110524,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 6,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 8,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1111249,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 4,
+      "bare_nuclei": 5,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 6,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1112209,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 6,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 9,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1113038,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 1,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 4,
+      "mitoses": 4,
+      "class": "Malignant"
+    },
+    {
+      "id": 1113483,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 10,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1113906,
+      "clump_thickness": 9,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 2,
+      "bland_chromatin": 5,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1115282,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 5,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 3,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 10,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1115293,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 2,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1116116,
+      "clump_thickness": 9,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 10,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 8,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 3,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1116132,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 2,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 9,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1116192,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1116998,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 2,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 3,
+      "mitoses": 10,
+      "class": "Malignant"
+    },
+    {
+      "id": 1117152,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1118039,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 10,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 9,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1120559,
+      "clump_thickness": 8,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 8,
+      "marginal_adhesion": 3,
+      "single_epithelial_cell_size": 4,
+      "bare_nuclei": 9,
+      "bland_chromatin": 8,
+      "normal_nucleoli": 9,
+      "mitoses": 8,
+      "class": "Malignant"
+    },
+    {
+      "id": 1121732,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 2,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1121919,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1123061,
+      "clump_thickness": 6,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 8,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 2,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 8,
+      "mitoses": 10,
+      "class": "Malignant"
+    },
+    {
+      "id": 1124651,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 3,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 2,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1125035,
+      "clump_thickness": 9,
+      "uniformity_cell_size": 4,
+      "uniformity_cell_shape": 5,
+      "marginal_adhesion": 10,
+      "single_epithelial_cell_size": 6,
+      "bare_nuclei": 10,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 8,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1126417,
+      "clump_thickness": 10,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 4,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 2,
+      "mitoses": 3,
+      "class": "Malignant"
+    },
+    {
+      "id": 1131294,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 2,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 2,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1132347,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 4,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1133041,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1133136,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 3,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1136142,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1137156,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 2,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 1,
+      "bare_nuclei": 1,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1143978,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1143978,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 2,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1147044,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 2,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1147699,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 7,
+      "marginal_adhesion": 8,
+      "single_epithelial_cell_size": 8,
+      "bare_nuclei": 9,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 10,
+      "mitoses": 7,
+      "class": "Malignant"
+    },
+    {
+      "id": 1147748,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 10,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 4,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 10,
+      "mitoses": 10,
+      "class": "Malignant"
+    },
+    {
+      "id": 1148278,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 3,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 4,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 8,
+      "bland_chromatin": 4,
+      "normal_nucleoli": 4,
+      "mitoses": 1,
+      "class": "Malignant"
+    },
+    {
+      "id": 1148873,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 6,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 10,
+      "bland_chromatin": 6,
+      "normal_nucleoli": 8,
+      "mitoses": 3,
+      "class": "Malignant"
+    },
+    {
+      "id": 1152331,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1155546,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 3,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1156272,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1156948,
+      "clump_thickness": 3,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 1,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1157734,
+      "clump_thickness": 4,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1158247,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1160476,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1164066,
+      "clump_thickness": 1,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1165297,
+      "clump_thickness": 2,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 1,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1165790,
+      "clump_thickness": 5,
+      "uniformity_cell_size": 1,
+      "uniformity_cell_shape": 1,
+      "marginal_adhesion": 1,
+      "single_epithelial_cell_size": 2,
+      "bare_nuclei": 1,
+      "bland_chromatin": 3,
+      "normal_nucleoli": 1,
+      "mitoses": 1,
+      "class": "Benign"
+    },
+    {
+      "id": 1165926,
+      "clump_thickness": 9,
+      "uniformity_cell_size": 6,
+      "uniformity_cell_shape": 9,
+      "marginal_adhesion": 2,
+      "single_epithelial_cell_size": 10,
+      "bare_nuclei": 6,
+      "bland_chromatin": 2,
+      "normal_nucleoli": 9,
+      "mitoses": 10,
+      "class": "Malignant"
+    },
+    {
+      "id": 1166630,
+      "clump_thickness": 7,
+      "uniformity_cell_size": 5,
+      "uniformity_cell_shape": 6,
+      "marginal_adhesion": 10,
+      "single_epithelial_cell_size": 5,
+      "bare_nuclei": 10,
+      "bland_chromatin": 7,
+      "normal_nucleoli": 9,
+      "mitoses": 4,
+      "class": "Malignant"
+    }
+  ]
+}

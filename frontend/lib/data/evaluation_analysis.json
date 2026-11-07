@@ -1,0 +1,1973 @@
+{
+  "summary_metrics_default_threshold": {
+    "threshold": 0.5,
+    "accuracy": 0.9712,
+    "sensitivity_recall": 0.9583,
+    "specificity": 0.978,
+    "precision": 0.9583,
+    "f1_score": 0.9583,
+    "roc_auc": 0.9961,
+    "pr_auc": 0.9929,
+    "confusion_matrix": [
+      [
+        89,
+        2
+      ],
+      [
+        2,
+        46
+      ]
+    ],
+    "total_test_samples": 139,
+    "malignant_test_samples": 48,
+    "benign_test_samples": 91
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0,
+      "threshold": 1.0
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.0208,
+      "threshold": 0.9997
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.8542,
+      "threshold": 0.8799
+    },
+    {
+      "fpr": 0.011,
+      "tpr": 0.8542,
+      "threshold": 0.8772
+    },
+    {
+      "fpr": 0.011,
+      "tpr": 0.9167,
+      "threshold": 0.7283
+    },
+    {
+      "fpr": 0.022,
+      "tpr": 0.9167,
+      "threshold": 0.6789
+    },
+    {
+      "fpr": 0.022,
+      "tpr": 0.9792,
+      "threshold": 0.3063
+    },
+    {
+      "fpr": 0.0879,
+      "tpr": 0.9792,
+      "threshold": 0.0475
+    },
+    {
+      "fpr": 0.0879,
+      "tpr": 1.0,
+      "threshold": 0.0371
+    },
+    {
+      "fpr": 0.1209,
+      "tpr": 1.0,
+      "threshold": 0.0271
+    },
+    {
+      "fpr": 0.1429,
+      "tpr": 1.0,
+      "threshold": 0.0249
+    },
+    {
+      "fpr": 0.2308,
+      "tpr": 1.0,
+      "threshold": 0.012
+    },
+    {
+      "fpr": 0.2527,
+      "tpr": 1.0,
+      "threshold": 0.0118
+    },
+    {
+      "fpr": 0.3297,
+      "tpr": 1.0,
+      "threshold": 0.0099
+    },
+    {
+      "fpr": 0.3516,
+      "tpr": 1.0,
+      "threshold": 0.0098
+    },
+    {
+      "fpr": 0.3846,
+      "tpr": 1.0,
+      "threshold": 0.009
+    },
+    {
+      "fpr": 0.4066,
+      "tpr": 1.0,
+      "threshold": 0.0083
+    },
+    {
+      "fpr": 0.4945,
+      "tpr": 1.0,
+      "threshold": 0.0057
+    },
+    {
+      "fpr": 0.5385,
+      "tpr": 1.0,
+      "threshold": 0.0056
+    },
+    {
+      "fpr": 0.5604,
+      "tpr": 1.0,
+      "threshold": 0.0055
+    },
+    {
+      "fpr": 0.5824,
+      "tpr": 1.0,
+      "threshold": 0.005
+    },
+    {
+      "fpr": 0.6154,
+      "tpr": 1.0,
+      "threshold": 0.0047
+    },
+    {
+      "fpr": 0.6593,
+      "tpr": 1.0,
+      "threshold": 0.0039
+    },
+    {
+      "fpr": 0.6923,
+      "tpr": 1.0,
+      "threshold": 0.0039
+    },
+    {
+      "fpr": 0.7033,
+      "tpr": 1.0,
+      "threshold": 0.0037
+    },
+    {
+      "fpr": 0.7253,
+      "tpr": 1.0,
+      "threshold": 0.0035
+    },
+    {
+      "fpr": 0.7692,
+      "tpr": 1.0,
+      "threshold": 0.0029
+    },
+    {
+      "fpr": 0.7912,
+      "tpr": 1.0,
+      "threshold": 0.0027
+    },
+    {
+      "fpr": 0.8242,
+      "tpr": 1.0,
+      "threshold": 0.0027
+    },
+    {
+      "fpr": 0.8681,
+      "tpr": 1.0,
+      "threshold": 0.0023
+    },
+    {
+      "fpr": 0.8791,
+      "tpr": 1.0,
+      "threshold": 0.0022
+    },
+    {
+      "fpr": 0.9011,
+      "tpr": 1.0,
+      "threshold": 0.002
+    },
+    {
+      "fpr": 0.978,
+      "tpr": 1.0,
+      "threshold": 0.0019
+    },
+    {
+      "fpr": 1.0,
+      "tpr": 1.0,
+      "threshold": 0.0018
+    }
+  ],
+  "precision_recall_curve": [
+    {
+      "precision": 1.0,
+      "recall": 0.0
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0208
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0417
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0625
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0833
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.1042
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.125
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.1458
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.1667
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.1875
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.2083
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.2292
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.25
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.2708
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.2917
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.3125
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.3333
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.3542
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.375
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.3958
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.4167
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.4375
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.4583
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.4792
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.5
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.5208
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.5417
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.5625
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.5833
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.6042
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.625
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.6458
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.6667
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.6875
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.7083
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.7292
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.75
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.7708
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.7917
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8125
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8333
+    },
+    {
+      "precision": 0.9762,
+      "recall": 0.8542
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8542
+    },
+    {
+      "precision": 0.9767,
+      "recall": 0.875
+    },
+    {
+      "precision": 0.9773,
+      "recall": 0.8958
+    },
+    {
+      "precision": 0.9565,
+      "recall": 0.9167
+    },
+    {
+      "precision": 0.9778,
+      "recall": 0.9167
+    },
+    {
+      "precision": 0.9574,
+      "recall": 0.9375
+    },
+    {
+      "precision": 0.9583,
+      "recall": 0.9583
+    },
+    {
+      "precision": 0.8545,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.8704,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.8868,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.9038,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.9216,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.94,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.9592,
+      "recall": 0.9792
+    },
+    {
+      "precision": 0.3453,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.3504,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.3692,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.375,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.378,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.3902,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4068,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4103,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4138,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4174,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4211,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4286,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4324,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4444,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4486,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4528,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4571,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4615,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4752,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.48,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4848,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.4948,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5161,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5217,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5275,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5333,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5393,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5455,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5517,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5581,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5647,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5783,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5854,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.5926,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6154,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6234,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6316,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.64,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6486,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6575,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6667,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6761,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.6957,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7059,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7164,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7273,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7385,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.75,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7619,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7742,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.7869,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.8136,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.8276,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.8421,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.8571,
+      "recall": 1.0
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.01,
+      "tn": 63,
+      "fp": 28,
+      "fn": 0,
+      "tp": 48,
+      "sensitivity": 1.0,
+      "specificity": 0.6923,
+      "precision": 0.6316,
+      "accuracy": 0.7986,
+      "f1_score": 0.7742
+    },
+    {
+      "threshold": 0.02,
+      "tn": 75,
+      "fp": 16,
+      "fn": 0,
+      "tp": 48,
+      "sensitivity": 1.0,
+      "specificity": 0.8242,
+      "precision": 0.75,
+      "accuracy": 0.8849,
+      "f1_score": 0.8571
+    },
+    {
+      "threshold": 0.03,
+      "tn": 81,
+      "fp": 10,
+      "fn": 0,
+      "tp": 48,
+      "sensitivity": 1.0,
+      "specificity": 0.8901,
+      "precision": 0.8276,
+      "accuracy": 0.9281,
+      "f1_score": 0.9057
+    },
+    {
+      "threshold": 0.04,
+      "tn": 83,
+      "fp": 8,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9121,
+      "precision": 0.8545,
+      "accuracy": 0.9353,
+      "f1_score": 0.9126
+    },
+    {
+      "threshold": 0.05,
+      "tn": 84,
+      "fp": 7,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9231,
+      "precision": 0.8704,
+      "accuracy": 0.9424,
+      "f1_score": 0.9216
+    },
+    {
+      "threshold": 0.06,
+      "tn": 84,
+      "fp": 7,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9231,
+      "precision": 0.8704,
+      "accuracy": 0.9424,
+      "f1_score": 0.9216
+    },
+    {
+      "threshold": 0.07,
+      "tn": 85,
+      "fp": 6,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9341,
+      "precision": 0.8868,
+      "accuracy": 0.9496,
+      "f1_score": 0.9307
+    },
+    {
+      "threshold": 0.08,
+      "tn": 85,
+      "fp": 6,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9341,
+      "precision": 0.8868,
+      "accuracy": 0.9496,
+      "f1_score": 0.9307
+    },
+    {
+      "threshold": 0.09,
+      "tn": 85,
+      "fp": 6,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9341,
+      "precision": 0.8868,
+      "accuracy": 0.9496,
+      "f1_score": 0.9307
+    },
+    {
+      "threshold": 0.1,
+      "tn": 85,
+      "fp": 6,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9341,
+      "precision": 0.8868,
+      "accuracy": 0.9496,
+      "f1_score": 0.9307
+    },
+    {
+      "threshold": 0.11,
+      "tn": 85,
+      "fp": 6,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9341,
+      "precision": 0.8868,
+      "accuracy": 0.9496,
+      "f1_score": 0.9307
+    },
+    {
+      "threshold": 0.12,
+      "tn": 86,
+      "fp": 5,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.9451,
+      "precision": 0.9038,
+      "accuracy": 0.9568,
+      "f1_score": 0.94
+    },
+    {
+      "threshold": 0.13,
+      "tn": 87,
+      "fp": 4,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.956,
+      "precision": 0.9216,
+      "accuracy": 0.964,
+      "f1_score": 0.9495
+    },
+    {
+      "threshold": 0.14,
+      "tn": 87,
+      "fp": 4,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.956,
+      "precision": 0.9216,
+      "accuracy": 0.964,
+      "f1_score": 0.9495
+    },
+    {
+      "threshold": 0.15,
+      "tn": 88,
+      "fp": 3,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.967,
+      "precision": 0.94,
+      "accuracy": 0.9712,
+      "f1_score": 0.9592
+    },
+    {
+      "threshold": 0.16,
+      "tn": 88,
+      "fp": 3,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.967,
+      "precision": 0.94,
+      "accuracy": 0.9712,
+      "f1_score": 0.9592
+    },
+    {
+      "threshold": 0.17,
+      "tn": 88,
+      "fp": 3,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.967,
+      "precision": 0.94,
+      "accuracy": 0.9712,
+      "f1_score": 0.9592
+    },
+    {
+      "threshold": 0.18,
+      "tn": 88,
+      "fp": 3,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.967,
+      "precision": 0.94,
+      "accuracy": 0.9712,
+      "f1_score": 0.9592
+    },
+    {
+      "threshold": 0.19,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.2,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.21,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.22,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.23,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.24,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.25,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.26,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.27,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.28,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.29,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.3,
+      "tn": 89,
+      "fp": 2,
+      "fn": 1,
+      "tp": 47,
+      "sensitivity": 0.9792,
+      "specificity": 0.978,
+      "precision": 0.9592,
+      "accuracy": 0.9784,
+      "f1_score": 0.9691
+    },
+    {
+      "threshold": 0.31,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.32,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.33,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.34,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.35,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.36,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.37,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.38,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.39,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.4,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.41,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.42,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.43,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.44,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.45,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.46,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.47,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.48,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.49,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.5,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.51,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.52,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.53,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.54,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.55,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.56,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.57,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.58,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.59,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.6,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.61,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.62,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.63,
+      "tn": 89,
+      "fp": 2,
+      "fn": 2,
+      "tp": 46,
+      "sensitivity": 0.9583,
+      "specificity": 0.978,
+      "precision": 0.9583,
+      "accuracy": 0.9712,
+      "f1_score": 0.9583
+    },
+    {
+      "threshold": 0.64,
+      "tn": 89,
+      "fp": 2,
+      "fn": 3,
+      "tp": 45,
+      "sensitivity": 0.9375,
+      "specificity": 0.978,
+      "precision": 0.9574,
+      "accuracy": 0.964,
+      "f1_score": 0.9474
+    },
+    {
+      "threshold": 0.65,
+      "tn": 89,
+      "fp": 2,
+      "fn": 3,
+      "tp": 45,
+      "sensitivity": 0.9375,
+      "specificity": 0.978,
+      "precision": 0.9574,
+      "accuracy": 0.964,
+      "f1_score": 0.9474
+    },
+    {
+      "threshold": 0.66,
+      "tn": 89,
+      "fp": 2,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.978,
+      "precision": 0.9565,
+      "accuracy": 0.9568,
+      "f1_score": 0.9362
+    },
+    {
+      "threshold": 0.67,
+      "tn": 89,
+      "fp": 2,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.978,
+      "precision": 0.9565,
+      "accuracy": 0.9568,
+      "f1_score": 0.9362
+    },
+    {
+      "threshold": 0.68,
+      "tn": 90,
+      "fp": 1,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.989,
+      "precision": 0.9778,
+      "accuracy": 0.964,
+      "f1_score": 0.9462
+    },
+    {
+      "threshold": 0.69,
+      "tn": 90,
+      "fp": 1,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.989,
+      "precision": 0.9778,
+      "accuracy": 0.964,
+      "f1_score": 0.9462
+    },
+    {
+      "threshold": 0.7,
+      "tn": 90,
+      "fp": 1,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.989,
+      "precision": 0.9778,
+      "accuracy": 0.964,
+      "f1_score": 0.9462
+    },
+    {
+      "threshold": 0.71,
+      "tn": 90,
+      "fp": 1,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.989,
+      "precision": 0.9778,
+      "accuracy": 0.964,
+      "f1_score": 0.9462
+    },
+    {
+      "threshold": 0.72,
+      "tn": 90,
+      "fp": 1,
+      "fn": 4,
+      "tp": 44,
+      "sensitivity": 0.9167,
+      "specificity": 0.989,
+      "precision": 0.9778,
+      "accuracy": 0.964,
+      "f1_score": 0.9462
+    },
+    {
+      "threshold": 0.73,
+      "tn": 90,
+      "fp": 1,
+      "fn": 5,
+      "tp": 43,
+      "sensitivity": 0.8958,
+      "specificity": 0.989,
+      "precision": 0.9773,
+      "accuracy": 0.9568,
+      "f1_score": 0.9348
+    },
+    {
+      "threshold": 0.74,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.75,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.76,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.77,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.78,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.79,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.8,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.81,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.82,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.83,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.84,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.85,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.86,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.87,
+      "tn": 90,
+      "fp": 1,
+      "fn": 6,
+      "tp": 42,
+      "sensitivity": 0.875,
+      "specificity": 0.989,
+      "precision": 0.9767,
+      "accuracy": 0.9496,
+      "f1_score": 0.9231
+    },
+    {
+      "threshold": 0.88,
+      "tn": 91,
+      "fp": 0,
+      "fn": 8,
+      "tp": 40,
+      "sensitivity": 0.8333,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9424,
+      "f1_score": 0.9091
+    },
+    {
+      "threshold": 0.89,
+      "tn": 91,
+      "fp": 0,
+      "fn": 8,
+      "tp": 40,
+      "sensitivity": 0.8333,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9424,
+      "f1_score": 0.9091
+    },
+    {
+      "threshold": 0.9,
+      "tn": 91,
+      "fp": 0,
+      "fn": 10,
+      "tp": 38,
+      "sensitivity": 0.7917,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9281,
+      "f1_score": 0.8837
+    },
+    {
+      "threshold": 0.91,
+      "tn": 91,
+      "fp": 0,
+      "fn": 12,
+      "tp": 36,
+      "sensitivity": 0.75,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9137,
+      "f1_score": 0.8571
+    },
+    {
+      "threshold": 0.92,
+      "tn": 91,
+      "fp": 0,
+      "fn": 13,
+      "tp": 35,
+      "sensitivity": 0.7292,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9065,
+      "f1_score": 0.8434
+    },
+    {
+      "threshold": 0.93,
+      "tn": 91,
+      "fp": 0,
+      "fn": 13,
+      "tp": 35,
+      "sensitivity": 0.7292,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9065,
+      "f1_score": 0.8434
+    },
+    {
+      "threshold": 0.94,
+      "tn": 91,
+      "fp": 0,
+      "fn": 13,
+      "tp": 35,
+      "sensitivity": 0.7292,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.9065,
+      "f1_score": 0.8434
+    },
+    {
+      "threshold": 0.95,
+      "tn": 91,
+      "fp": 0,
+      "fn": 16,
+      "tp": 32,
+      "sensitivity": 0.6667,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.8849,
+      "f1_score": 0.8
+    },
+    {
+      "threshold": 0.96,
+      "tn": 91,
+      "fp": 0,
+      "fn": 17,
+      "tp": 31,
+      "sensitivity": 0.6458,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.8777,
+      "f1_score": 0.7848
+    },
+    {
+      "threshold": 0.97,
+      "tn": 91,
+      "fp": 0,
+      "fn": 17,
+      "tp": 31,
+      "sensitivity": 0.6458,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.8777,
+      "f1_score": 0.7848
+    },
+    {
+      "threshold": 0.98,
+      "tn": 91,
+      "fp": 0,
+      "fn": 21,
+      "tp": 27,
+      "sensitivity": 0.5625,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.8489,
+      "f1_score": 0.72
+    },
+    {
+      "threshold": 0.99,
+      "tn": 91,
+      "fp": 0,
+      "fn": 25,
+      "tp": 23,
+      "sensitivity": 0.4792,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "accuracy": 0.8201,
+      "f1_score": 0.6479
+    }
+  ],
+  "error_analysis": {
+    "category_counts": {
+      "True Negative": 89,
+      "True Positive": 46,
+      "False Negative": 2,
+      "False Positive": 2
+    },
+    "feature_means_by_category": {
+      "True Negative": {
+        "Clump_Thickness": 2.73,
+        "Uniformity_of_Cell_Size": 1.18,
+        "Uniformity_of_Cell_Shape": 1.28,
+        "Marginal_Adhesion": 1.38,
+        "Single_Epithelial_Cell_Size": 2.02,
+        "Bare_Nuclei": 1.28,
+        "Bland_Chromatin": 1.97,
+        "Normal_Nucleoli": 1.16,
+        "Mitoses": 1.02
+      },
+      "False Positive": {
+        "Clump_Thickness": 4.0,
+        "Uniformity_of_Cell_Size": 4.0,
+        "Uniformity_of_Cell_Shape": 4.5,
+        "Marginal_Adhesion": 4.0,
+        "Single_Epithelial_Cell_Size": 7.0,
+        "Bare_Nuclei": 6.5,
+        "Bland_Chromatin": 3.5,
+        "Normal_Nucleoli": 4.0,
+        "Mitoses": 1.0
+      },
+      "False Negative": {
+        "Clump_Thickness": 4.5,
+        "Uniformity_of_Cell_Size": 2.0,
+        "Uniformity_of_Cell_Shape": 2.0,
+        "Marginal_Adhesion": 3.0,
+        "Single_Epithelial_Cell_Size": 1.5,
+        "Bare_Nuclei": 4.0,
+        "Bland_Chromatin": 3.0,
+        "Normal_Nucleoli": 2.5,
+        "Mitoses": 1.0
+      },
+      "True Positive": {
+        "Clump_Thickness": 7.3,
+        "Uniformity_of_Cell_Size": 6.78,
+        "Uniformity_of_Cell_Shape": 6.63,
+        "Marginal_Adhesion": 6.0,
+        "Single_Epithelial_Cell_Size": 5.8,
+        "Bare_Nuclei": 7.7,
+        "Bland_Chromatin": 6.74,
+        "Normal_Nucleoli": 5.5,
+        "Mitoses": 2.35
+      }
+    },
+    "error_cases": [
+      {
+        "row_index": 12,
+        "sample_id": 1041801,
+        "true_label": "Malignant",
+        "predicted_label": "Benign",
+        "error_category": "False Negative",
+        "probability_malignant": 0.3063,
+        "features": {
+          "Clump_Thickness": 5.0,
+          "Uniformity_of_Cell_Size": 3.0,
+          "Uniformity_of_Cell_Shape": 3.0,
+          "Marginal_Adhesion": 3.0,
+          "Single_Epithelial_Cell_Size": 2.0,
+          "Bare_Nuclei": 3.0,
+          "Bland_Chromatin": 4.0,
+          "Normal_Nucleoli": 4.0,
+          "Mitoses": 1.0
+        }
+      },
+      {
+        "row_index": 1,
+        "sample_id": 1002945,
+        "true_label": "Benign",
+        "predicted_label": "Malignant",
+        "error_category": "False Positive",
+        "probability_malignant": 0.8772,
+        "features": {
+          "Clump_Thickness": 5.0,
+          "Uniformity_of_Cell_Size": 4.0,
+          "Uniformity_of_Cell_Shape": 4.0,
+          "Marginal_Adhesion": 5.0,
+          "Single_Epithelial_Cell_Size": 7.0,
+          "Bare_Nuclei": 10.0,
+          "Bland_Chromatin": 3.0,
+          "Normal_Nucleoli": 2.0,
+          "Mitoses": 1.0
+        }
+      },
+      {
+        "row_index": 222,
+        "sample_id": 1226012,
+        "true_label": "Malignant",
+        "predicted_label": "Benign",
+        "error_category": "False Negative",
+        "probability_malignant": 0.0371,
+        "features": {
+          "Clump_Thickness": 4.0,
+          "Uniformity_of_Cell_Size": 1.0,
+          "Uniformity_of_Cell_Shape": 1.0,
+          "Marginal_Adhesion": 3.0,
+          "Single_Epithelial_Cell_Size": 1.0,
+          "Bare_Nuclei": 5.0,
+          "Bland_Chromatin": 2.0,
+          "Normal_Nucleoli": 1.0,
+          "Mitoses": 1.0
+        }
+      },
+      {
+        "row_index": 352,
+        "sample_id": 846832,
+        "true_label": "Benign",
+        "predicted_label": "Malignant",
+        "error_category": "False Positive",
+        "probability_malignant": 0.6789,
+        "features": {
+          "Clump_Thickness": 3.0,
+          "Uniformity_of_Cell_Size": 4.0,
+          "Uniformity_of_Cell_Shape": 5.0,
+          "Marginal_Adhesion": 3.0,
+          "Single_Epithelial_Cell_Size": 7.0,
+          "Bare_Nuclei": 3.0,
+          "Bland_Chromatin": 4.0,
+          "Normal_Nucleoli": 6.0,
+          "Mitoses": 1.0
+        }
+      }
+    ]
+  }
+}

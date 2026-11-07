@@ -1,0 +1,304 @@
+{
+  "methodology": {
+    "test_name": "Two-sided Mann-Whitney U Test",
+    "null_hypothesis": "The distribution of cytological scores in the malignant cohort is stochastically identical to that of the benign cohort (P(X_mal > X_ben) = P(X_ben > X_mal)).",
+    "alternative_hypothesis": "The distribution of cytological scores in the malignant cohort is stochastically different from that of the benign cohort.",
+    "effect_size_metric": "Rank-biserial correlation (r_rb), measuring standardized directional difference in ranks between malignant and benign samples on [-1, 1].",
+    "multiple_testing_correction": "Benjamini-Hochberg False Discovery Rate (FDR) controlling the expected proportion of false discoveries at alpha = 0.05.",
+    "sample_sizes": {
+      "benign_total": 453,
+      "malignant_total": 238,
+      "bare_nuclei_missing_excluded_from_test": 16
+    }
+  },
+  "features_ranked": [
+    {
+      "feature": "Uniformity_of_Cell_Size",
+      "feature_name": "Uniformity of Cell Size",
+      "u_statistic": 104982.0,
+      "p_value": 1.5243657240464606e-111,
+      "rank_biserial_r": 0.9475,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 6.0,
+      "iqr_malignant": [
+        4.0,
+        10.0
+      ],
+      "median_difference": 5.0,
+      "ci_95_median_diff": [
+        5.0,
+        6.0
+      ],
+      "mean_benign": 1.33,
+      "mean_malignant": 6.56,
+      "mean_difference": 5.23,
+      "bh_rank": 1,
+      "adjusted_p_value": 1.3719291516418147e-110,
+      "p_val_display": "1.52e-111",
+      "q_val_display": "1.37e-110",
+      "effect_rank": 1
+    },
+    {
+      "feature": "Uniformity_of_Cell_Shape",
+      "feature_name": "Uniformity of Cell Shape",
+      "u_statistic": 104905.0,
+      "p_value": 1.4134339703780941e-106,
+      "rank_biserial_r": 0.946,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 6.0,
+      "iqr_malignant": [
+        4.0,
+        9.0
+      ],
+      "median_difference": 5.0,
+      "ci_95_median_diff": [
+        5.0,
+        6.0
+      ],
+      "mean_benign": 1.45,
+      "mean_malignant": 6.54,
+      "mean_difference": 5.09,
+      "bh_rank": 2,
+      "adjusted_p_value": 6.360452866701424e-106,
+      "p_val_display": "1.41e-106",
+      "q_val_display": "6.36e-106",
+      "effect_rank": 2
+    },
+    {
+      "feature": "Bare_Nuclei",
+      "feature_name": "Bare Nuclei",
+      "u_statistic": 98240.5,
+      "p_value": 7.738619837297078e-104,
+      "rank_biserial_r": 0.8965,
+      "n_benign": 439,
+      "n_malignant": 236,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 10.0,
+      "iqr_malignant": [
+        5.0,
+        10.0
+      ],
+      "median_difference": 9.0,
+      "ci_95_median_diff": [
+        8.0,
+        9.0
+      ],
+      "mean_benign": 1.35,
+      "mean_malignant": 7.61,
+      "mean_difference": 6.26,
+      "bh_rank": 3,
+      "adjusted_p_value": 2.3215859511891234e-103,
+      "p_val_display": "7.74e-104",
+      "q_val_display": "2.32e-103",
+      "effect_rank": 3
+    },
+    {
+      "feature": "Bland_Chromatin",
+      "feature_name": "Bland Chromatin",
+      "u_statistic": 101473.5,
+      "p_value": 2.831684206274971e-84,
+      "rank_biserial_r": 0.8824,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 2.0,
+      "iqr_benign": [
+        1.0,
+        3.0
+      ],
+      "median_malignant": 7.0,
+      "iqr_malignant": [
+        4.0,
+        7.0
+      ],
+      "median_difference": 5.0,
+      "ci_95_median_diff": [
+        3.0,
+        5.0
+      ],
+      "mean_benign": 2.1,
+      "mean_malignant": 5.98,
+      "mean_difference": 3.89,
+      "bh_rank": 6,
+      "adjusted_p_value": 4.247526309412457e-84,
+      "p_val_display": "2.83e-84",
+      "q_val_display": "4.25e-84",
+      "effect_rank": 4
+    },
+    {
+      "feature": "Single_Epithelial_Cell_Size",
+      "feature_name": "Single Epithelial Cell Size",
+      "u_statistic": 99267.5,
+      "p_value": 5.7557913558542896e-89,
+      "rank_biserial_r": 0.8415,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 2.0,
+      "iqr_benign": [
+        2.0,
+        2.0
+      ],
+      "median_malignant": 5.0,
+      "iqr_malignant": [
+        3.0,
+        6.0
+      ],
+      "median_difference": 3.0,
+      "ci_95_median_diff": [
+        2.0,
+        3.0
+      ],
+      "mean_benign": 2.13,
+      "mean_malignant": 5.28,
+      "mean_difference": 3.15,
+      "bh_rank": 4,
+      "adjusted_p_value": 1.2950530550672152e-88,
+      "p_val_display": "5.76e-89",
+      "q_val_display": "1.30e-88",
+      "effect_rank": 5
+    },
+    {
+      "feature": "Clump_Thickness",
+      "feature_name": "Clump Thickness",
+      "u_statistic": 98167.0,
+      "p_value": 4.765234727524761e-72,
+      "rank_biserial_r": 0.821,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 3.0,
+      "iqr_benign": [
+        1.0,
+        4.0
+      ],
+      "median_malignant": 8.0,
+      "iqr_malignant": [
+        5.0,
+        10.0
+      ],
+      "median_difference": 5.0,
+      "ci_95_median_diff": [
+        4.0,
+        5.0
+      ],
+      "mean_benign": 2.96,
+      "mean_malignant": 7.21,
+      "mean_difference": 4.25,
+      "bh_rank": 8,
+      "adjusted_p_value": 5.360889068465356e-72,
+      "p_val_display": "4.77e-72",
+      "q_val_display": "5.36e-72",
+      "effect_rank": 6
+    },
+    {
+      "feature": "Marginal_Adhesion",
+      "feature_name": "Marginal Adhesion",
+      "u_statistic": 96774.0,
+      "p_value": 4.6246796180972054e-82,
+      "rank_biserial_r": 0.7952,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 5.0,
+      "iqr_malignant": [
+        3.0,
+        8.0
+      ],
+      "median_difference": 4.0,
+      "ci_95_median_diff": [
+        3.5,
+        5.0
+      ],
+      "mean_benign": 1.37,
+      "mean_malignant": 5.6,
+      "mean_difference": 4.23,
+      "bh_rank": 7,
+      "adjusted_p_value": 5.946016651839265e-82,
+      "p_val_display": "4.62e-82",
+      "q_val_display": "5.95e-82",
+      "effect_rank": 7
+    },
+    {
+      "feature": "Normal_Nucleoli",
+      "feature_name": "Normal Nucleoli",
+      "u_statistic": 96041.0,
+      "p_value": 3.0340645360567823e-85,
+      "rank_biserial_r": 0.7816,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 6.0,
+      "iqr_malignant": [
+        3.0,
+        10.0
+      ],
+      "median_difference": 5.0,
+      "ci_95_median_diff": [
+        4.0,
+        6.0
+      ],
+      "mean_benign": 1.29,
+      "mean_malignant": 5.91,
+      "mean_difference": 4.61,
+      "bh_rank": 5,
+      "adjusted_p_value": 5.461316164902209e-85,
+      "p_val_display": "3.03e-85",
+      "q_val_display": "5.46e-85",
+      "effect_rank": 8
+    },
+    {
+      "feature": "Mitoses",
+      "feature_name": "Mitoses",
+      "u_statistic": 76625.0,
+      "p_value": 1.2155593592403016e-43,
+      "rank_biserial_r": 0.4214,
+      "n_benign": 453,
+      "n_malignant": 238,
+      "median_benign": 1.0,
+      "iqr_benign": [
+        1.0,
+        1.0
+      ],
+      "median_malignant": 1.0,
+      "iqr_malignant": [
+        1.0,
+        3.0
+      ],
+      "median_difference": 0.0,
+      "ci_95_median_diff": [
+        0.0,
+        1.0
+      ],
+      "mean_benign": 1.06,
+      "mean_malignant": 2.6,
+      "mean_difference": 1.54,
+      "bh_rank": 9,
+      "adjusted_p_value": 1.2155593592403016e-43,
+      "p_val_display": "1.22e-43",
+      "q_val_display": "1.22e-43",
+      "effect_rank": 9
+    }
+  ]
+}
